@@ -1,95 +1,2715 @@
-[
-   {
-      "RNA_MODIFIED_INDEX":56,
-      "PARENT_MODIFIED_NUCLEOTIDE":"A",
-      "SUBCLASS_MODIFICATION_PROBABILITIES":[
-         {
-            "hAm":0.001
-         },
-         {
-            "hCm":0.1733
-         },
-         {
-            "hGm":0.9984
-         },
-         {
-            "hTm":0.9991
-         },
-         {
-            "hm1A":0.5634
-         }
-      ]
-   },
-   {
-      "RNA_MODIFIED_INDEX":57,
-      "PARENT_MODIFIED_NUCLEOTIDE":"T",
-      "SUBCLASS_MODIFICATION_PROBABILITIES":[
-         {
-            "hAm":0.9999
-         },
-         {
-            "hCm":0.9995
-         },
-         {
-            "hGm":0.9999
-         }
-      ]
-   },
-   {
-      "RNA_MODIFIED_INDEX":58,
-      "PARENT_MODIFIED_NUCLEOTIDE":"C",
-      "SUBCLASS_MODIFICATION_PROBABILITIES":[
-         {
-            "hm6A":0.9975
-         },
-         {
-            "hm6Am":0.9976
-         },
-         {
-            "hm7G":0.9999
-         },
-         {
-            "hPsi":0.5618
-         },
-         {
-            "Atol":0.9518
-         }
-      ]
-   },
-   {
-      "RNA_MODIFIED_INDEX":59,
-      "PARENT_MODIFIED_NUCLEOTIDE":"G",
-      "SUBCLASS_MODIFICATION_PROBABILITIES":[
-         {
-            "hAm":0.9999
-         },
-         {
-            "hCm":0.9997
-         },
-         {
-            "hm6Am":0.8643
-         },
-         {
-            "hm7G":0.9999
-         },
-         {
-            "Atol":0.9459
-         }
-      ]
-   },
-   {
-      "RNA_MODIFIED_INDEX":60,
-      "PARENT_MODIFIED_NUCLEOTIDE":"T",
-      "SUBCLASS_MODIFICATION_PROBABILITIES":[
-         {
-            "hm1A":0.9859
-         },
-         {
-            "hm5C":0.9993
-         },
-         {
-            "hm5U":0.9992
-         }
-      ]
-   }
-]
+{
+	"COMPLETE_RNA_SEQUENCE": "GGGGCCGTGGATACCTGCCTTTTAATTCTTTTTTATTCGCCCATCGGGGCCGCGGATACCTGCTTTTTATTTTTTTTTCCTTAGCCCATCGGGGTATCGGATACCTGCTGATTCCCTTCCCCTCTGAACCCCCAACACTCTGGCCCATCGGGGTGACGGATATCTGCTTTTTAAAAATTTTCTTTTTTTGGCCCATCGGGGCTTCGGATA",
+	"POSITION_WITH_PROBABILITIES": [
+		{
+			"RNA_MODIFIED_INDEX": 51,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.013829464092850685
+				},
+				{
+					"hCm": 0.012201671488583088
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.5155474543571472
+				},
+				{
+					"hCm": 0.484452486038208
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 52,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.0006583424983546138
+				},
+				{
+					"hm7G": 0.002512543462216854
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.45370662212371828
+				},
+				{
+					"hm7G": 0.5462933778762817
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 53,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0007112178136594594
+				},
+				{
+					"hCm": 0.0003726421273313463
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.6007758378982544
+				},
+				{
+					"hCm": 0.39922410249710085
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 54,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.9922088384628296
+				},
+				{
+					"hm7G": 0.00008425604028161615
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.4826338589191437
+				},
+				{
+					"hm7G": 0.5173661112785339
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 55,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.0001009869301924482
+				},
+				{
+					"hm7G": 0.000126361264847219
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.496182382106781
+				},
+				{
+					"hm7G": 0.5038175582885742
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 56,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.9559683799743652
+				},
+				{
+					"hm1A": 0.5779632925987244
+				},
+				{
+					"hm6A": 0.0022551589645445348
+				},
+				{
+					"hm6Am": 0.9950023293495178
+				},
+				{
+					"Atol": 0.03536398336291313
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.0562230609357357
+				},
+				{
+					"hm1A": 0.18496595323085786
+				},
+				{
+					"hAm": 0.1952711045742035
+				},
+				{
+					"Atol": 0.16932283341884614
+				},
+				{
+					"hm6Am": 0.39421701431274416
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 57,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.8980154991149902
+				},
+				{
+					"hm5U": 0.9706074595451355
+				},
+				{
+					"hPsi": 0.7303696274757385
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.3474219739437103
+				},
+				{
+					"hm5U": 0.3396194279193878
+				},
+				{
+					"hPsi": 0.3129585087299347
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 58,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.00008842998795444146
+				},
+				{
+					"hm1A": 0.48979252576828005
+				},
+				{
+					"hm6A": 0.0022449903190135957
+				},
+				{
+					"hm6Am": 0.7712607979774475
+				},
+				{
+					"Atol": 0.05155674368143082
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.08278480172157288
+				},
+				{
+					"hm1A": 0.22986246645450593
+				},
+				{
+					"hAm": 0.28998371958732607
+				},
+				{
+					"Atol": 0.24399305880069734
+				},
+				{
+					"hm6Am": 0.15337596833705903
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 59,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.008599394001066685
+				},
+				{
+					"hCm": 0.00038566504372283816
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.5111820101737976
+				},
+				{
+					"hCm": 0.4888180196285248
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 60,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0016655741492286325
+				},
+				{
+					"hCm": 0.0005201695603318512
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.4764658510684967
+				},
+				{
+					"hCm": 0.5235341191291809
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 61,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.00020472366304602474
+				},
+				{
+					"hm5U": 0.0010938768973574043
+				},
+				{
+					"hPsi": 0.9494352340698242
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.3337576687335968
+				},
+				{
+					"hm5U": 0.3332393765449524
+				},
+				{
+					"hPsi": 0.3330029845237732
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 62,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.0010568881407380105
+				},
+				{
+					"hm7G": 0.003594587789848447
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.500852108001709
+				},
+				{
+					"hm7G": 0.499147891998291
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 63,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.007859695702791214
+				},
+				{
+					"hCm": 0.6008694767951965
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.28201356530189516
+				},
+				{
+					"hCm": 0.7179864048957825
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 64,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.0013735847314819694
+				},
+				{
+					"hm5U": 0.0014621643349528313
+				},
+				{
+					"hPsi": 0.8708350658416748
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.34035524725914
+				},
+				{
+					"hm5U": 0.3661949038505554
+				},
+				{
+					"hPsi": 0.29344987869262698
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 65,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.0025096163153648378
+				},
+				{
+					"hm5U": 0.05893751606345177
+				},
+				{
+					"hPsi": 0.9210032224655151
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.34228208661079409
+				},
+				{
+					"hm5U": 0.3147044777870178
+				},
+				{
+					"hPsi": 0.3430134654045105
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 66,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.0010030994890257717
+				},
+				{
+					"hm5U": 0.877666175365448
+				},
+				{
+					"hPsi": 0.00036686626845039427
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.3994565010070801
+				},
+				{
+					"hm5U": 0.29105180501937868
+				},
+				{
+					"hPsi": 0.30949169397354128
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 67,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.002866727765649557
+				},
+				{
+					"hm5U": 0.9692274332046509
+				},
+				{
+					"hPsi": 0.0035999715328216554
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.33219730854034426
+				},
+				{
+					"hm5U": 0.33235839009284975
+				},
+				{
+					"hPsi": 0.33544430136680605
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 68,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.004900973755866289
+				},
+				{
+					"hm5U": 0.0003125332877971232
+				},
+				{
+					"hPsi": 0.0012738269288092852
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.32893893122673037
+				},
+				{
+					"hm5U": 0.34274986386299136
+				},
+				{
+					"hPsi": 0.3283112347126007
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 69,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.00008588640775997192
+				},
+				{
+					"hm1A": 0.05880988389253616
+				},
+				{
+					"hm6A": 0.0024995177518576385
+				},
+				{
+					"hm6Am": 0.9695455431938171
+				},
+				{
+					"Atol": 0.10381202399730683
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.12524086236953736
+				},
+				{
+					"hm1A": 0.2635025680065155
+				},
+				{
+					"hAm": 0.16897305846214295
+				},
+				{
+					"Atol": 0.2716616094112396
+				},
+				{
+					"hm6Am": 0.1706218719482422
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 70,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.0006629080744460225
+				},
+				{
+					"hm5U": 0.009025638923048973
+				},
+				{
+					"hPsi": 0.8186301589012146
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.3433867394924164
+				},
+				{
+					"hm5U": 0.31450986862182619
+				},
+				{
+					"hPsi": 0.34210336208343508
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 71,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.0005372412852011621
+				},
+				{
+					"hm5U": 0.670654833316803
+				},
+				{
+					"hPsi": 0.0003230697475373745
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.4055239260196686
+				},
+				{
+					"hm5U": 0.29007264971733096
+				},
+				{
+					"hPsi": 0.3044034242630005
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 72,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.000478965463116765
+				},
+				{
+					"hm5U": 0.5152230858802795
+				},
+				{
+					"hPsi": 0.00032124813878908753
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.40858256816864016
+				},
+				{
+					"hm5U": 0.28968578577041628
+				},
+				{
+					"hPsi": 0.3017316460609436
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 73,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.0005349528510123491
+				},
+				{
+					"hm5U": 0.9594396352767944
+				},
+				{
+					"hPsi": 0.0008769098785705864
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.3387523293495178
+				},
+				{
+					"hm5U": 0.3308878242969513
+				},
+				{
+					"hPsi": 0.3303597867488861
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 74,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.7463898062705994
+				},
+				{
+					"hm5U": 0.003908931743353605
+				},
+				{
+					"hPsi": 0.04304348677396774
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.356881320476532
+				},
+				{
+					"hm5U": 0.3198983669281006
+				},
+				{
+					"hPsi": 0.32322028279304507
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 75,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.000384246843168512
+				},
+				{
+					"hm5U": 0.00681459903717041
+				},
+				{
+					"hPsi": 0.00045877863885834813
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.32124823331832888
+				},
+				{
+					"hm5U": 0.34026098251342776
+				},
+				{
+					"hPsi": 0.3384907841682434
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 76,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.8598341941833496
+				},
+				{
+					"hm5U": 0.9217461347579956
+				},
+				{
+					"hPsi": 0.8803907036781311
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.35331225395202639
+				},
+				{
+					"hm5U": 0.3384174108505249
+				},
+				{
+					"hPsi": 0.30827030539512637
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 77,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.00022557523334398866
+				},
+				{
+					"hm5U": 0.007812162861227989
+				},
+				{
+					"hPsi": 0.9155679941177368
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.34038761258125307
+				},
+				{
+					"hm5U": 0.3326452970504761
+				},
+				{
+					"hPsi": 0.3269670009613037
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 78,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.00018868282495532185
+				},
+				{
+					"hm5U": 0.0024011689238250257
+				},
+				{
+					"hPsi": 0.0026688550133258106
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.3434313237667084
+				},
+				{
+					"hm5U": 0.339859277009964
+				},
+				{
+					"hPsi": 0.31670936942100527
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 79,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.00044053862802684307
+				},
+				{
+					"hCm": 0.9899423122406006
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.5637864470481873
+				},
+				{
+					"hCm": 0.43621358275413515
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 80,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.00043258158257231116
+				},
+				{
+					"hCm": 0.00015976089343894273
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.3713476061820984
+				},
+				{
+					"hCm": 0.6286523938179016
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 81,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.00019816456187982112
+				},
+				{
+					"hm5U": 0.00035041754017584026
+				},
+				{
+					"hPsi": 0.00030612689442932606
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.41047513484954836
+				},
+				{
+					"hm5U": 0.29039424657821658
+				},
+				{
+					"hPsi": 0.29913055896759035
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 82,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.00019561723456718028
+				},
+				{
+					"hm5U": 0.0003387499018572271
+				},
+				{
+					"hPsi": 0.00030668749241158366
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.4133908450603485
+				},
+				{
+					"hm5U": 0.2900564968585968
+				},
+				{
+					"hPsi": 0.2965526580810547
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 83,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.00008307590178446844
+				},
+				{
+					"hm1A": 0.14577406644821168
+				},
+				{
+					"hm6A": 0.29856500029563906
+				},
+				{
+					"hm6Am": 0.0006525885546579957
+				},
+				{
+					"Atol": 0.06854385137557984
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.27160948514938357
+				},
+				{
+					"hm1A": 0.19918498396873475
+				},
+				{
+					"hAm": 0.26722368597984316
+				},
+				{
+					"Atol": 0.21199218928813935
+				},
+				{
+					"hm6Am": 0.049989644438028339
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 84,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.9109261631965637
+				},
+				{
+					"hm7G": 0.00006243226380320266
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.43464547395706179
+				},
+				{
+					"hm7G": 0.5653545260429382
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 85,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0025436782743781807
+				},
+				{
+					"hCm": 0.0001513736933702603
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.3971855044364929
+				},
+				{
+					"hCm": 0.6028144955635071
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 86,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0003465414047241211
+				},
+				{
+					"hCm": 0.9932031631469727
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.5865025520324707
+				},
+				{
+					"hCm": 0.4134974479675293
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 87,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.002477099886164069
+				},
+				{
+					"hCm": 0.00016817773575894535
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.5517855286598206
+				},
+				{
+					"hCm": 0.44821450114250185
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 88,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.00011743858340196311
+				},
+				{
+					"hm1A": 0.3408040404319763
+				},
+				{
+					"hm6A": 0.20661002397537232
+				},
+				{
+					"hm6Am": 0.0002236352302134037
+				},
+				{
+					"Atol": 0.11626072973012924
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.2946513891220093
+				},
+				{
+					"hm1A": 0.19359223544597627
+				},
+				{
+					"hAm": 0.1275320202112198
+				},
+				{
+					"Atol": 0.1961047500371933
+				},
+				{
+					"hm6Am": 0.18811959028244019
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 89,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.00016683689318597317
+				},
+				{
+					"hm5U": 0.00024738258798606694
+				},
+				{
+					"hPsi": 0.00030192785197868943
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.3340395987033844
+				},
+				{
+					"hm5U": 0.3339318633079529
+				},
+				{
+					"hPsi": 0.3320285677909851
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 90,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0003444235771894455
+				},
+				{
+					"hCm": 0.00034484281786717474
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.6274272203445435
+				},
+				{
+					"hCm": 0.37257274985313418
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 91,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.00010017093882197514
+				},
+				{
+					"hm7G": 0.0002283357025589794
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.45492973923683169
+				},
+				{
+					"hm7G": 0.545070230960846
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 92,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.00010138958168681711
+				},
+				{
+					"hm7G": 0.00005554901508730836
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.47253721952438357
+				},
+				{
+					"hm7G": 0.5274627804756165
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 93,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.00014735404693055898
+				},
+				{
+					"hm7G": 0.00007865405495977029
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.3610756993293762
+				},
+				{
+					"hm7G": 0.6389243006706238
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 94,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.00010189698514295742
+				},
+				{
+					"hm7G": 0.0000626423570793122
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.5744572877883911
+				},
+				{
+					"hm7G": 0.4255427420139313
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 95,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.00023019747459329665
+				},
+				{
+					"hm5U": 0.0009309566812589765
+				},
+				{
+					"hPsi": 0.0005353499436751008
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.3343814015388489
+				},
+				{
+					"hm5U": 0.3301744759082794
+				},
+				{
+					"hPsi": 0.3354441523551941
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 96,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.00008604593313066289
+				},
+				{
+					"hm1A": 0.1200842335820198
+				},
+				{
+					"hm6A": 0.3903506100177765
+				},
+				{
+					"hm6Am": 0.0023664908949285747
+				},
+				{
+					"Atol": 0.14122283458709718
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.35210925340652468
+				},
+				{
+					"hm1A": 0.183757483959198
+				},
+				{
+					"hAm": 0.20887449383735658
+				},
+				{
+					"Atol": 0.19409717619419099
+				},
+				{
+					"hm6Am": 0.06116156280040741
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 97,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.06581370532512665
+				},
+				{
+					"hm5U": 0.0002693291462492198
+				},
+				{
+					"hPsi": 0.009684748947620392
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.3373047411441803
+				},
+				{
+					"hm5U": 0.3331267237663269
+				},
+				{
+					"hPsi": 0.3295685350894928
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 98,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0003637871996033937
+				},
+				{
+					"hCm": 0.26138466596603396
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.4461042582988739
+				},
+				{
+					"hCm": 0.5538958311080933
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 99,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.00014668366929981858
+				},
+				{
+					"hm7G": 0.00014660117449238896
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.5203027129173279
+				},
+				{
+					"hm7G": 0.47969722747802737
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 100,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.001145511749200523
+				},
+				{
+					"hm7G": 0.00006502451287815347
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.29426467418670657
+				},
+				{
+					"hm7G": 0.7057353258132935
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 101,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.00009834367665462196
+				},
+				{
+					"hm1A": 0.5422976613044739
+				},
+				{
+					"hm6A": 0.32652854919433596
+				},
+				{
+					"hm6Am": 0.00021241512149572372
+				},
+				{
+					"Atol": 0.18106287717819215
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.19486381113529206
+				},
+				{
+					"hm1A": 0.1869892179965973
+				},
+				{
+					"hAm": 0.22684955596923829
+				},
+				{
+					"Atol": 0.17836882174015046
+				},
+				{
+					"hm6Am": 0.21292853355407716
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 102,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.0006471410160884261
+				},
+				{
+					"hm5U": 0.0004091972950845957
+				},
+				{
+					"hPsi": 0.004758525174111128
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.35227352380752566
+				},
+				{
+					"hm5U": 0.3150666356086731
+				},
+				{
+					"hPsi": 0.3326597511768341
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 103,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.00008686914225108922
+				},
+				{
+					"hm1A": 0.5037320256233215
+				},
+				{
+					"hm6A": 0.19861915707588197
+				},
+				{
+					"hm6Am": 0.0006468875799328089
+				},
+				{
+					"Atol": 0.20890173316001893
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.22951868176460267
+				},
+				{
+					"hm1A": 0.16899728775024415
+				},
+				{
+					"hAm": 0.11612101644277573
+				},
+				{
+					"Atol": 0.15642675757408143
+				},
+				{
+					"hm6Am": 0.32893621921539309
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 104,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.001019495539367199
+				},
+				{
+					"hCm": 0.0001646030432311818
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.5497950315475464
+				},
+				{
+					"hCm": 0.450204998254776
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 105,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.726598858833313
+				},
+				{
+					"hCm": 0.006520747672766447
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.5548051595687866
+				},
+				{
+					"hCm": 0.4451948404312134
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 106,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.00021727803687099367
+				},
+				{
+					"hm5U": 0.11850190907716751
+				},
+				{
+					"hPsi": 0.0006760052056051791
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.3441546559333801
+				},
+				{
+					"hm5U": 0.3327697515487671
+				},
+				{
+					"hPsi": 0.32307562232017519
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 107,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.0000985886508715339
+				},
+				{
+					"hm7G": 0.0003851279034279287
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.3102152645587921
+				},
+				{
+					"hm7G": 0.6897847056388855
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 108,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.000406003586249426
+				},
+				{
+					"hCm": 0.027275148779153825
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.5567946434020996
+				},
+				{
+					"hCm": 0.4432053565979004
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 109,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.0038910394068807365
+				},
+				{
+					"hm5U": 0.5935564041137695
+				},
+				{
+					"hPsi": 0.00049714429769665
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.37277957797050478
+				},
+				{
+					"hm5U": 0.3403068780899048
+				},
+				{
+					"hPsi": 0.28691357374191286
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 110,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.0005975591484457254
+				},
+				{
+					"hm7G": 0.000053116847993806007
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.4024854004383087
+				},
+				{
+					"hm7G": 0.5975146293640137
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 111,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.0000869993818923831
+				},
+				{
+					"hm1A": 0.08157650381326676
+				},
+				{
+					"hm6A": 0.5888562202453613
+				},
+				{
+					"hm6Am": 0.00038652060902677476
+				},
+				{
+					"Atol": 0.1338474601507187
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.3315315544605255
+				},
+				{
+					"hm1A": 0.17876572906970979
+				},
+				{
+					"hAm": 0.12148960679769516
+				},
+				{
+					"Atol": 0.17567148804664613
+				},
+				{
+					"hm6Am": 0.19254170358181
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 112,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.00020554004004225135
+				},
+				{
+					"hm5U": 0.0004253729712218046
+				},
+				{
+					"hPsi": 0.00027055214741267264
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.32018253207206728
+				},
+				{
+					"hm5U": 0.34054428339004519
+				},
+				{
+					"hPsi": 0.33927324414253237
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 113,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.00020540857804007828
+				},
+				{
+					"hm5U": 0.00031397902057506144
+				},
+				{
+					"hPsi": 0.0002629999944474548
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.3461759388446808
+				},
+				{
+					"hm5U": 0.33701521158218386
+				},
+				{
+					"hPsi": 0.316808819770813
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 114,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.00037056722794659436
+				},
+				{
+					"hCm": 0.0001525892730569467
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.44088587164878847
+				},
+				{
+					"hCm": 0.5591141581535339
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 115,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.03856286033987999
+				},
+				{
+					"hCm": 0.9828148484230042
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.4610178470611572
+				},
+				{
+					"hCm": 0.5389822125434876
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 116,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0003695043851621449
+				},
+				{
+					"hCm": 0.00015662530495319515
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.4814366400241852
+				},
+				{
+					"hCm": 0.5185633301734924
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 117,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.0002290832344442606
+				},
+				{
+					"hm5U": 0.001086655305698514
+				},
+				{
+					"hPsi": 0.0002944791631307453
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.35057926177978518
+				},
+				{
+					"hm5U": 0.3328761160373688
+				},
+				{
+					"hPsi": 0.3165445923805237
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 118,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.0006511673564091325
+				},
+				{
+					"hm5U": 0.00031250109896063805
+				},
+				{
+					"hPsi": 0.0006426931358873844
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.3292534351348877
+				},
+				{
+					"hm5U": 0.32737061381340029
+				},
+				{
+					"hPsi": 0.34337592124938967
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 119,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0003474180120974779
+				},
+				{
+					"hCm": 0.00015016838733572513
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.5300662517547607
+				},
+				{
+					"hCm": 0.46993377804756167
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 120,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.00041020751814357936
+				},
+				{
+					"hCm": 0.00016182870604097843
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.49622687697410586
+				},
+				{
+					"hCm": 0.5037731528282166
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 121,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.00041020711068995297
+				},
+				{
+					"hCm": 0.00016182870604097843
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.4962269067764282
+				},
+				{
+					"hCm": 0.5037731528282166
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 122,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.00041020711068995297
+				},
+				{
+					"hCm": 0.00016182885156013072
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.4962269067764282
+				},
+				{
+					"hCm": 0.5037731528282166
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 123,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.00016025033255573362
+				},
+				{
+					"hm5U": 0.0005665670032612979
+				},
+				{
+					"hPsi": 0.00027288784622214735
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.32289817929267886
+				},
+				{
+					"hm5U": 0.3451867997646332
+				},
+				{
+					"hPsi": 0.331915020942688
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 124,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.000352117873262614
+				},
+				{
+					"hCm": 0.00015068863285705447
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.4280298948287964
+				},
+				{
+					"hCm": 0.5719701051712036
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 125,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.0001883344812085852
+				},
+				{
+					"hm5U": 0.0003124730719719082
+				},
+				{
+					"hPsi": 0.0023304992355406286
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.33800438046455386
+				},
+				{
+					"hm5U": 0.33363986015319826
+				},
+				{
+					"hPsi": 0.3283557891845703
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 126,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.00016828296065796167
+				},
+				{
+					"hm7G": 0.00018056367116514593
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.5282847881317139
+				},
+				{
+					"hm7G": 0.4717152416706085
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 127,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.00009993308049160987
+				},
+				{
+					"hm1A": 0.03823705390095711
+				},
+				{
+					"hm6A": 0.27747011184692385
+				},
+				{
+					"hm6Am": 0.00043588626431301236
+				},
+				{
+					"Atol": 0.10638558119535446
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.36535704135894778
+				},
+				{
+					"hm1A": 0.17820072174072267
+				},
+				{
+					"hAm": 0.10876822471618653
+				},
+				{
+					"Atol": 0.18126392364501954
+				},
+				{
+					"hm6Am": 0.16641010344028474
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 128,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.00014828304119873792
+				},
+				{
+					"hm1A": 0.021784275770187379
+				},
+				{
+					"hm6A": 0.2805783748626709
+				},
+				{
+					"hm6Am": 0.000180597256985493
+				},
+				{
+					"Atol": 0.17955011129379273
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.33739718794822695
+				},
+				{
+					"hm1A": 0.20731109380722047
+				},
+				{
+					"hAm": 0.12359386682510376
+				},
+				{
+					"Atol": 0.1967543214559555
+				},
+				{
+					"hm6Am": 0.13494348526000977
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 129,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0003105879877693951
+				},
+				{
+					"hCm": 0.0003275040362495929
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.309998095035553
+				},
+				{
+					"hCm": 0.690001904964447
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 130,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0006737752701155841
+				},
+				{
+					"hCm": 0.00015728382277302444
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.5170761346817017
+				},
+				{
+					"hCm": 0.4829238951206207
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 131,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0006901848246343434
+				},
+				{
+					"hCm": 0.0001586403086548671
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.5038632750511169
+				},
+				{
+					"hCm": 0.49613672494888308
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 132,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0003129032556898892
+				},
+				{
+					"hCm": 0.00016065991076175123
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.4999566674232483
+				},
+				{
+					"hCm": 0.5000433325767517
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 133,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.6653873920440674
+				},
+				{
+					"hCm": 0.0003455314435996115
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.4718460440635681
+				},
+				{
+					"hCm": 0.5281539559364319
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 134,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.00009368468454340473
+				},
+				{
+					"hm1A": 0.1776786744594574
+				},
+				{
+					"hm6A": 0.25396811962127688
+				},
+				{
+					"hm6Am": 0.00015900208381935954
+				},
+				{
+					"Atol": 0.16379648447036744
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.347613662481308
+				},
+				{
+					"hm1A": 0.19398126006126405
+				},
+				{
+					"hAm": 0.15107515454292298
+				},
+				{
+					"Atol": 0.20468798279762269
+				},
+				{
+					"hm6Am": 0.10264191776514054
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 135,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.00008566564065404236
+				},
+				{
+					"hm1A": 0.1286880522966385
+				},
+				{
+					"hm6A": 0.23701691627502442
+				},
+				{
+					"hm6Am": 0.0009577865130268037
+				},
+				{
+					"Atol": 0.17749881744384767
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.3052501082420349
+				},
+				{
+					"hm1A": 0.20284391939640046
+				},
+				{
+					"hAm": 0.13541412353515626
+				},
+				{
+					"Atol": 0.21124328672885896
+				},
+				{
+					"hm6Am": 0.14524857699871064
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 136,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0005615924601443112
+				},
+				{
+					"hCm": 0.00015935588453430682
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.4946322739124298
+				},
+				{
+					"hCm": 0.5053677558898926
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 137,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.00008521036943420768
+				},
+				{
+					"hm1A": 0.14399254322052003
+				},
+				{
+					"hm6A": 0.23791497945785523
+				},
+				{
+					"hm6Am": 0.001225997693836689
+				},
+				{
+					"Atol": 0.167897030711174
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.30873820185661318
+				},
+				{
+					"hm1A": 0.20361344516277314
+				},
+				{
+					"hAm": 0.1389642208814621
+				},
+				{
+					"Atol": 0.21287842094898225
+				},
+				{
+					"hm6Am": 0.13580575585365296
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 138,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0006762590492144227
+				},
+				{
+					"hCm": 0.00015944009646773338
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.4789377748966217
+				},
+				{
+					"hCm": 0.5210622549057007
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 139,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.0003621490905061364
+				},
+				{
+					"hm5U": 0.00032007391564548016
+				},
+				{
+					"hPsi": 0.00042864010902121663
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.3476216793060303
+				},
+				{
+					"hm5U": 0.340257465839386
+				},
+				{
+					"hPsi": 0.31212088465690615
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 140,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0009168416145257652
+				},
+				{
+					"hCm": 0.0003461460000835359
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.502032458782196
+				},
+				{
+					"hCm": 0.49796751141548159
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 141,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.00018429540796205401
+				},
+				{
+					"hm5U": 0.0006588773103430867
+				},
+				{
+					"hPsi": 0.0018420744454488159
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.3334830701351166
+				},
+				{
+					"hm5U": 0.34665191173553469
+				},
+				{
+					"hPsi": 0.31986504793167117
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 142,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.00017691745597403497
+				},
+				{
+					"hm7G": 0.00005239657548372634
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.7265301942825317
+				},
+				{
+					"hm7G": 0.2734697759151459
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 143,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.0000937940931180492
+				},
+				{
+					"hm7G": 0.00020996255625505
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.6976924538612366
+				},
+				{
+					"hm7G": 0.30230754613876345
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 144,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0004127658321522176
+				},
+				{
+					"hCm": 0.00032545256544835865
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.5253615975379944
+				},
+				{
+					"hCm": 0.4746384024620056
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 145,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0009261633385904133
+				},
+				{
+					"hCm": 0.0002290773409185931
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.5251535177230835
+				},
+				{
+					"hCm": 0.4748465120792389
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 146,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.00032262346940115094
+				},
+				{
+					"hCm": 0.9787035584449768
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.4098951816558838
+				},
+				{
+					"hCm": 0.5901048183441162
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 147,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.00009620107448427007
+				},
+				{
+					"hm1A": 0.4312750995159149
+				},
+				{
+					"hm6A": 0.41101914644241335
+				},
+				{
+					"hm6Am": 0.7484806180000305
+				},
+				{
+					"Atol": 0.34239354729652407
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.2880536615848541
+				},
+				{
+					"hm1A": 0.18395079672336579
+				},
+				{
+					"hAm": 0.1288064420223236
+				},
+				{
+					"Atol": 0.1971946358680725
+				},
+				{
+					"hm6Am": 0.2019944041967392
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 148,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.00021694351744372398
+				},
+				{
+					"hm5U": 0.0003833376395050436
+				},
+				{
+					"hPsi": 0.0008973876829259098
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.34733498096466067
+				},
+				{
+					"hm5U": 0.3347676396369934
+				},
+				{
+					"hPsi": 0.31789737939834597
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 149,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.0003957873850595206
+				},
+				{
+					"hCm": 0.0006676302873529494
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.6610091924667358
+				},
+				{
+					"hCm": 0.33899080753326418
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 150,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.00013251295604277402
+				},
+				{
+					"hm7G": 0.000051309685659362
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.6321638822555542
+				},
+				{
+					"hm7G": 0.3678361177444458
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 151,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.00012063239410053939
+				},
+				{
+					"hm7G": 0.000051130278734490278
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.6142929792404175
+				},
+				{
+					"hm7G": 0.38570699095726015
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 152,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.0001847047678893432
+				},
+				{
+					"hm7G": 0.00005300436896504834
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.6422749757766724
+				},
+				{
+					"hm7G": 0.3577251136302948
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 153,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.000143269426189363
+				},
+				{
+					"hm7G": 0.000054504747822647917
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.5378153920173645
+				},
+				{
+					"hm7G": 0.4621845483779907
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 154,
+			"PARENT_MODIFIED_NUCLEOTIDE": "T",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.01484866626560688
+				},
+				{
+					"hm5U": 0.0008177368436008692
+				},
+				{
+					"hPsi": 0.25944429636001589
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hTm": 0.35246506333351138
+				},
+				{
+					"hm5U": 0.33970311284065249
+				},
+				{
+					"hPsi": 0.30783185362815859
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 155,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.00013411031977739185
+				},
+				{
+					"hm7G": 0.00005540781421586871
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.5290790796279907
+				},
+				{
+					"hm7G": 0.47092095017433169
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 156,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.00009089872764889151
+				},
+				{
+					"hm1A": 0.13595959544181825
+				},
+				{
+					"hm6A": 0.2955038249492645
+				},
+				{
+					"hm6Am": 0.0006723166443407536
+				},
+				{
+					"Atol": 0.17689499258995057
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.4307330548763275
+				},
+				{
+					"hm1A": 0.1711496114730835
+				},
+				{
+					"hAm": 0.12009534984827042
+				},
+				{
+					"Atol": 0.1797441989183426
+				},
+				{
+					"hm6Am": 0.09827776998281479
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 157,
+			"PARENT_MODIFIED_NUCLEOTIDE": "C",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.000340585014782846
+				},
+				{
+					"hCm": 0.000243519913055934
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm5C": 0.6885368824005127
+				},
+				{
+					"hCm": 0.3114631474018097
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 158,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.00012068381329299882
+				},
+				{
+					"hm7G": 0.00005147504271008074
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.40657752752304079
+				},
+				{
+					"hm7G": 0.5934224724769592
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 159,
+			"PARENT_MODIFIED_NUCLEOTIDE": "G",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.00009736372157931328
+				},
+				{
+					"hm7G": 0.00006163049692986533
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hGm": 0.5199026465415955
+				},
+				{
+					"hm7G": 0.4800974130630493
+				}
+			]
+		},
+		{
+			"RNA_MODIFIED_INDEX": 160,
+			"PARENT_MODIFIED_NUCLEOTIDE": "A",
+			"BINARY_MODIFICATION_PROBABILITIES": [
+				{
+					"hAm": 0.00010199663665844128
+				},
+				{
+					"hm1A": 0.0121166305616498
+				},
+				{
+					"hm6A": 0.21924634277820588
+				},
+				{
+					"hm6Am": 0.00017603235028218478
+				},
+				{
+					"Atol": 0.1455947607755661
+				}
+			],
+			"MULTICLASS_MODIFICATION_PROBABILITIES": [
+				{
+					"hm6A": 0.31748732924461367
+				},
+				{
+					"hm1A": 0.19656091928482057
+				},
+				{
+					"hAm": 0.14436683058738709
+				},
+				{
+					"Atol": 0.20564626157283784
+				},
+				{
+					"hm6Am": 0.1359386146068573
+				}
+			]
+		}
+	]
+}

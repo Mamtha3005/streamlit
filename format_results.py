@@ -1,6 +1,10 @@
 import json
 import pandas as pd
 
+def format_merged_cell(value1, value2):
+    merged_cell = f'<div style="display: flex; flex-direction: row;"><div style="width: 50%;">{value1}</div><div style="width: 50%;">{value2}</div></div>'
+    return merged_cell
+
 def format_to_json(prediction):
     f = open('sampleResults.json')
     json_data = json.load(f)
@@ -10,17 +14,19 @@ def format_to_json(prediction):
                                                          'hm5C','hm5U','hm6A','hm6Am','hm7G','hPsi','Atol']})
     print(df)
 
-    for data in json_data:
+    dataWithProbabilities = json_data['POSITION_WITH_PROBABILITIES']
+    for data in dataWithProbabilities:
         index = data['RNA_MODIFIED_INDEX']
-        column = getColumn(data)
+        column = getBinaryColumn(data)
         df[index] = column
 
     print(df)
     return df
 
-def getColumn(jsonObject):
+def getBinaryColumn(jsonObject):
+    print('jsonObject: ', jsonObject)
     nucleotide = jsonObject['PARENT_MODIFIED_NUCLEOTIDE']
-    probabilities = jsonObject['SUBCLASS_MODIFICATION_PROBABILITIES']
+    probabilities = jsonObject['BINARY_MODIFICATION_PROBABILITIES']
     hAm = ''
     hCm = ''
     hGm = ''
