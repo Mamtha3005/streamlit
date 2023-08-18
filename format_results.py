@@ -16,17 +16,20 @@ def format_to_json(prediction):
 
     dataWithProbabilities = json_data['POSITION_WITH_PROBABILITIES']
     for data in dataWithProbabilities:
-        index = data['RNA_MODIFIED_INDEX']
-        column = getBinaryColumn(data)
-        df[index] = column
-
-    print(df)
+        binaryIndex = str(data['RNA_MODIFIED_INDEX']) + '-binary'
+        binaryColumn = getColumn(data, data['PARENT_MODIFIED_NUCLEOTIDE'], 'BINARY_MODIFICATION_PROBABILITIES')
+        df[binaryIndex] = binaryColumn
+        multiIndex = str(data['RNA_MODIFIED_INDEX']) + '-multi'
+        multiColumn = getColumn(data, '', 'MULTICLASS_MODIFICATION_PROBABILITIES')
+        df[multiIndex] = multiColumn
+        finalIndex = str(data['RNA_MODIFIED_INDEX']) + '-final'
+        multiColumn = getFinalColumn(data['BINARY_MODIFICATION_PROBABILITIES'], data['MULTICLASS_MODIFICATION_PROBABILITIES'])
+        df[finalIndex] = multiColumn
     return df
 
-def getBinaryColumn(jsonObject):
-    print('jsonObject: ', jsonObject)
-    nucleotide = jsonObject['PARENT_MODIFIED_NUCLEOTIDE']
-    probabilities = jsonObject['BINARY_MODIFICATION_PROBABILITIES']
+def getColumn(jsonObject, nucleotide, type):
+    # print('jsonObject: ', jsonObject)
+    probabilities = jsonObject[type]
     hAm = ''
     hCm = ''
     hGm = ''
@@ -69,6 +72,44 @@ def getBinaryColumn(jsonObject):
     column = [nucleotide, hAm, hCm, hGm, hTm, hm1A, hm5C, hm5U, hm6A, hm6Am, hm7G, hPsi, Atol]
 
     print("column: ", column)
+    return column
+
+def getValue(binaryData, multiData, param):
+    binary = 0
+    multi = 0
+
+    for p in binaryData:
+        if param in p:
+            binary = int(p[param])
+
+    for p in multiData:
+        if param in p:
+            multi = int(p[param])
+
+    print('param: ', param)
+    print('binary: ', binary)
+    print('multi: ', multi)
+    return binary * multi
+
+def getFinalColumn(binaryData, multiData):
+    nucleotide = ''
+
+    hAm = getValue(binaryData, multiData, 'hAm')
+    hCm = getValue(binaryData, multiData, 'hCm')
+    hGm = getValue(binaryData, multiData, 'hGm')
+    hTm = getValue(binaryData, multiData, 'hTm')
+    hm1A = getValue(binaryData, multiData, 'hm1A')
+    hm5C = getValue(binaryData, multiData, 'hm5C')
+    hm5U = getValue(binaryData, multiData, 'hm5U')
+    hm6A = getValue(binaryData, multiData, 'hm6A')
+    hm6Am = getValue(binaryData, multiData, 'hm6Am')
+    hm7G = getValue(binaryData, multiData, 'hm7G')
+    hPsi = getValue(binaryData, multiData, 'hPsi')
+    Atol = getValue(binaryData, multiData, 'Atol')
+
+    column = [nucleotide, hAm, hCm, hGm, hTm, hm1A, hm5C, hm5U, hm6A, hm6Am, hm7G, hPsi, Atol]
+
+    # print("column: ", column)
     return column
 
 def save_json_to_excel(data, filename):
