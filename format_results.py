@@ -75,21 +75,22 @@ def getColumn(jsonObject, nucleotide, type):
     return column
 
 def getValue(binaryData, multiData, param):
-    binary = 0
-    multi = 0
+    binary = 0.0
+    multi = 0.0
 
     for p in binaryData:
         if param in p:
-            binary = int(p[param])
+            print('p[param]: ', p[param])
+            binary = float(p[param])
 
     for p in multiData:
         if param in p:
-            multi = int(p[param])
+            multi = float(p[param])
 
-    print('param: ', param)
-    print('binary: ', binary)
-    print('multi: ', multi)
-    return binary * multi
+    if binary == 0.0 and multi == 0.0:
+        return ''
+    else:
+        return binary * multi
 
 def getFinalColumn(binaryData, multiData):
     nucleotide = ''
