@@ -30,45 +30,69 @@ def format_to_json(prediction):
 def getColumn(jsonObject, nucleotide, type):
     # print('jsonObject: ', jsonObject)
     probabilities = jsonObject[type]
-    hAm = ''
-    hCm = ''
-    hGm = ''
-    hTm = ''
-    hm1A = ''
-    hm5C = ''
-    hm5U = ''
-    hm6A = ''
-    hm6Am = ''
-    hm7G = ''
-    hPsi = ''
-    Atol = ''
+    hAm = 0.0
+    hCm = 0.0
+    hGm = 0.0
+    hTm = 0.0
+    hm1A = 0.0
+    hm5C = 0.0
+    hm5U = 0.0
+    hm6A = 0.0
+    hm6Am = 0.0
+    hm7G = 0.0
+    hPsi = 0.0
+    Atol = 0.0
     print("probabilities: ", probabilities)
     for p in probabilities:
         if "hAm" in p:
-            hAm = p['hAm']
+            hAm = round(float(p['hAm']),3)
         if "hCm" in p:
-            hCm = p['hCm']
+            hCm = round(float(p['hCm']),3)
         if "hGm" in p:
-            hGm = p['hGm']
+            hGm = round(float(p['hGm']),3)
         if "hTm" in p:
-            hTm = p['hTm']
+            hTm = round(float(p['hTm']),3)
         if "hm1A" in p:
-            hm1A = p['hm1A']
+            hm1A = round(float(p['hm1A']),3)
         if "hm5C" in p:
-            hm5C = p['hm5C']
+            hm5C = round(float(p['hm5C']),3)
         if "hm5U" in p:
-            hm5U = p['hm5U']
+            hm5U = round(float(p['hm5U']),3)
         if "hm6A" in p:
-            hm6A = p['hm6A']
+            hm6A = round(float(p['hm6A']),3)
         if "hm6Am" in p:
-            hm6Am = p['hm6Am']
+            hm6Am = round(float(p['hm6Am']),3)
         if "hm7G" in p:
-            hm7G = p['hm7G']
+            hm7G = round(float(p['hm7G']),3)
         if "hPsi" in p:
-            hPsi = p['hPsi']
+            hPsi = round(float(p['hPsi']),3)
         if "Atol" in p:
-            Atol = p['Atol']
+            Atol = round(float(p['Atol']),3)
 
+    if hAm == 0.0:
+        hAm = ''
+    if hCm == 0.0:
+        hCm = ''
+    if hGm == 0.0:
+        hGm = ''
+    if hTm == 0.0:
+        hTm = ''
+    if hm1A == 0.0:
+        hm1A = ''
+    if hm5C == 0.0:
+        hm5C = ''
+    if hm5U == 0.0:
+        hm5U = ''
+    if hm6A == 0.0:
+        hm6A = ''
+    if hm6Am == 0.0:
+        hm6Am = ''
+    if hm7G == 0.0:
+        hm7G = ''
+    if hPsi == 0.0:
+        hPsi = ''
+    if Atol == 0.0:
+        Atol = ''
     column = [nucleotide, hAm, hCm, hGm, hTm, hm1A, hm5C, hm5U, hm6A, hm6Am, hm7G, hPsi, Atol]
 
     print("column: ", column)
@@ -80,7 +104,6 @@ def getValue(binaryData, multiData, param):
 
     for p in binaryData:
         if param in p:
-            print('p[param]: ', p[param])
             binary = float(p[param])
 
     for p in multiData:
@@ -90,7 +113,7 @@ def getValue(binaryData, multiData, param):
     if binary == 0.0 and multi == 0.0:
         return ''
     else:
-        return binary * multi
+        return round(binary * multi,3)
 
 def getFinalColumn(binaryData, multiData):
     nucleotide = ''
